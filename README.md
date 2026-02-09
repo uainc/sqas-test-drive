@@ -71,11 +71,11 @@ To create a new project in SonarQube Cloud from your GitHub repository, follow t
 
   ![Create the workflow](workshop_images/create_workflow.jpg)
 
-  ![Commit the workflow](workshop_images/commit_workflow.jpg)
-
   Pro tips:
   - change the default `build.yml` name to `sonar.yml`
   - change the name of the workflow in the file (line #1) to `SonarQube Scan`
+
+  ![Commit the workflow](workshop_images/commit_workflow.jpg)
 
   4. Create `sonar-project.properties` file in root directory in your test repository in GitHub:
 
